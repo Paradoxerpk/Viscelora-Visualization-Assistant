@@ -96,7 +96,7 @@ if uploaded_file:
                 Write Python code using plotly.express to create a visualization for: 
                 '{user_choice}'.
                 The dataset is a pandas dataframe named df with columns {list(df.columns)}.
-                Only return the code. Do not include imports or fig.show().
+                Only return the code and fig.show().
                 """
                 plot_code = ask_gemini(code_prompt)
 
